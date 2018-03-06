@@ -77,6 +77,14 @@
      We put this method last so it shows up first. "*/
 }
 
+- (NSString*)getHeader {
+    Class klass = NSClassFromString(classObjectName);
+    BOOL displayPropertiesDefaultValues = [[NSUserDefaults standardUserDefaults] boolForKey:@"RTBDisplayPropertiesDefaultValues"];
+    NSString *header = [RTBRuntimeHeader headerForClass:klass displayPropertiesDefaultValues:displayPropertiesDefaultValues];
+    
+    return header;
+}
+
 - (BOOL)writeAtPath:(NSString *)path {
     
     NSURL *pathURL = [NSURL fileURLWithPath:path];

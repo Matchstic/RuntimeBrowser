@@ -48,7 +48,9 @@
 
 - (RTBClass *)classStubForClassName:(NSString *)classname;
 - (NSArray *)sortedClassStubs;
+- (void)removeImageClasses:(NSString*)imagePath;
 - (void)emptyCachesAndReadAllRuntimeClasses;
 - (NSArray *)sortedProtocolStubs;
+- (void)readAllRuntimeClasses;
 
 @end

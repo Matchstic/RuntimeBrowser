@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99F8984203868D6003692ED /* wRB WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C99F8983203868D6003692ED /* wRB WatchKit App.app */; };
+		C99F8993203868D6003692ED /* wRB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C99F8992203868D6003692ED /* wRB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9A23E25204EBD6A002C1121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E0D204EBD6A002C1121 /* Assets.xcassets */; };
+		C9A23E26204EBD6A002C1121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23E0E204EBD6A002C1121 /* ViewController.m */; };
+		C9A23E27204EBD6A002C1121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E0F204EBD6A002C1121 /* LaunchScreen.storyboard */; };
+		C9A23E28204EBD6A002C1121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E11204EBD6A002C1121 /* Main.storyboard */; };
+		C9A23E29204EBD6A002C1121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23E13204EBD6A002C1121 /* main.m */; };
+		C9A23E2A204EBD6A002C1121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23E14204EBD6A002C1121 /* AppDelegate.m */; };
+		C9A23E31204EBD75002C1121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E2D204EBD75002C1121 /* Assets.xcassets */; };
+		C9A23E3B204EBD7C002C1121 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23E35204EBD7C002C1121 /* ExtensionDelegate.m */; };
+		C9A23E3C204EBD7C002C1121 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23E36204EBD7C002C1121 /* InterfaceController.m */; };
+		C9A23E3D204EBD7C002C1121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E37204EBD7C002C1121 /* Assets.xcassets */; };
+		C9A23E55204EC02A002C1121 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A23E2E204EBD75002C1121 /* Interface.storyboard */; };
+		C9A23F0D204ED508002C1121 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EF1204ED508002C1121 /* GCDWebServerResponse.m */; };
+		C9A23F0E204ED508002C1121 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EF4204ED508002C1121 /* GCDWebServerRequest.m */; };
+		C9A23F0F204ED508002C1121 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EF7204ED508002C1121 /* GCDWebServerFunctions.m */; };
+		C9A23F10204ED508002C1121 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EF8204ED508002C1121 /* GCDWebServer.m */; };
+		C9A23F11204ED508002C1121 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EF9204ED508002C1121 /* GCDWebServerConnection.m */; };
+		C9A23F12204ED508002C1121 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23EFE204ED508002C1121 /* GCDWebServerErrorResponse.m */; };
+		C9A23F13204ED508002C1121 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F00204ED508002C1121 /* GCDWebServerFileResponse.m */; };
+		C9A23F14204ED508002C1121 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F01204ED508002C1121 /* GCDWebServerDataResponse.m */; };
+		C9A23F15204ED508002C1121 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F03204ED508002C1121 /* GCDWebServerStreamedResponse.m */; };
+		C9A23F16204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F08204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.m */; };
+		C9A23F17204ED508002C1121 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F09204ED508002C1121 /* GCDWebServerMultiPartFormRequest.m */; };
+		C9A23F18204ED508002C1121 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F0A204ED508002C1121 /* GCDWebServerDataRequest.m */; };
+		C9A23F19204ED508002C1121 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F0B204ED508002C1121 /* GCDWebServerFileRequest.m */; };
+		C9A23F1C204ED51C002C1121 /* RTBMyIP.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F1B204ED51C002C1121 /* RTBMyIP.m */; };
+		C9A23F2C204ED55A002C1121 /* RTBMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F1E204ED55A002C1121 /* RTBMethod.m */; };
+		C9A23F2D204ED55A002C1121 /* RTBTypeDecoder2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F22204ED55A002C1121 /* RTBTypeDecoder2.m */; };
+		C9A23F2E204ED55A002C1121 /* RTBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F23204ED55A002C1121 /* RTBClass.m */; };
+		C9A23F2F204ED55A002C1121 /* RTBProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F24204ED55A002C1121 /* RTBProtocol.m */; };
+		C9A23F30204ED55A002C1121 /* RTBTypeDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F25204ED55A002C1121 /* RTBTypeDecoder.m */; };
+		C9A23F31204ED55A002C1121 /* RTBRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F27204ED55A002C1121 /* RTBRuntime.m */; };
+		C9A23F32204ED55A002C1121 /* RTBRuntimeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A23F28204ED55A002C1121 /* RTBRuntimeHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99F8985203868D6003692ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F8965203868D6003692ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99F8982203868D6003692ED;
+			remoteInfo = "wRB WatchKit App";
+		};
+		C99F8994203868D6003692ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F8965203868D6003692ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99F8991203868D6003692ED;
+			remoteInfo = "wRB WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C99F89A5203868D6003692ED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C99F8993203868D6003692ED /* wRB WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99F89A9203868D6003692ED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C99F8984203868D6003692ED /* wRB WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C99F896D203868D6003692ED /* wRB iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wRB iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99F8983203868D6003692ED /* wRB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wRB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99F8992203868D6003692ED /* wRB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "wRB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A23E0C204EBD6A002C1121 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9A23E0D204EBD6A002C1121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A23E0E204EBD6A002C1121 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9A23E10204EBD6A002C1121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9A23E12204EBD6A002C1121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A23E13204EBD6A002C1121 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9A23E14204EBD6A002C1121 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9A23E15204EBD6A002C1121 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A23E16204EBD6A002C1121 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9A23E2D204EBD75002C1121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A23E2F204EBD75002C1121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C9A23E30204EBD75002C1121 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A23E35204EBD7C002C1121 /* ExtensionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		C9A23E36204EBD7C002C1121 /* InterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		C9A23E37204EBD7C002C1121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A23E38204EBD7C002C1121 /* ExtensionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		C9A23E39204EBD7C002C1121 /* InterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		C9A23E3A204EBD7C002C1121 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A23EEF204ED508002C1121 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		C9A23EF0204ED508002C1121 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		C9A23EF1204ED508002C1121 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		C9A23EF2204ED508002C1121 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		C9A23EF3204ED508002C1121 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		C9A23EF4204ED508002C1121 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		C9A23EF5204ED508002C1121 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		C9A23EF6204ED508002C1121 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		C9A23EF7204ED508002C1121 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		C9A23EF8204ED508002C1121 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		C9A23EF9204ED508002C1121 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		C9A23EFA204ED508002C1121 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		C9A23EFC204ED508002C1121 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		C9A23EFD204ED508002C1121 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		C9A23EFE204ED508002C1121 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		C9A23EFF204ED508002C1121 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		C9A23F00204ED508002C1121 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		C9A23F01204ED508002C1121 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		C9A23F02204ED508002C1121 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		C9A23F03204ED508002C1121 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		C9A23F05204ED508002C1121 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		C9A23F06204ED508002C1121 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		C9A23F07204ED508002C1121 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		C9A23F08204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		C9A23F09204ED508002C1121 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		C9A23F0A204ED508002C1121 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		C9A23F0B204ED508002C1121 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		C9A23F0C204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		C9A23F1A204ED51C002C1121 /* RTBMyIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTBMyIP.h; path = ../../iOS/RTBMyIP.h; sourceTree = "<group>"; };
+		C9A23F1B204ED51C002C1121 /* RTBMyIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTBMyIP.m; path = ../../iOS/RTBMyIP.m; sourceTree = "<group>"; };
+		C9A23F1E204ED55A002C1121 /* RTBMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBMethod.m; sourceTree = "<group>"; };
+		C9A23F1F204ED55A002C1121 /* RTBTypeDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBTypeDecoder.h; sourceTree = "<group>"; };
+		C9A23F20204ED55A002C1121 /* RTBRuntimeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBRuntimeHeader.h; sourceTree = "<group>"; };
+		C9A23F21204ED55A002C1121 /* RTBRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBRuntime.h; sourceTree = "<group>"; };
+		C9A23F22204ED55A002C1121 /* RTBTypeDecoder2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBTypeDecoder2.m; sourceTree = "<group>"; };
+		C9A23F23204ED55A002C1121 /* RTBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBClass.m; sourceTree = "<group>"; };
+		C9A23F24204ED55A002C1121 /* RTBProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBProtocol.m; sourceTree = "<group>"; };
+		C9A23F25204ED55A002C1121 /* RTBTypeDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBTypeDecoder.m; sourceTree = "<group>"; };
+		C9A23F26204ED55A002C1121 /* RTBMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBMethod.h; sourceTree = "<group>"; };
+		C9A23F27204ED55A002C1121 /* RTBRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBRuntime.m; sourceTree = "<group>"; };
+		C9A23F28204ED55A002C1121 /* RTBRuntimeHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBRuntimeHeader.m; sourceTree = "<group>"; };
+		C9A23F29204ED55A002C1121 /* RTBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBProtocol.h; sourceTree = "<group>"; };
+		C9A23F2A204ED55A002C1121 /* RTBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBClass.h; sourceTree = "<group>"; };
+		C9A23F2B204ED55A002C1121 /* RTBTypeDecoder2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBTypeDecoder2.h; sourceTree = "<group>"; };
+		C9DAAD89203A1938002C8075 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.1.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		C9DAAD8A203A195A002C8075 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99F896A203868D6003692ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99F898F203868D6003692ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99F8964203868D6003692ED = {
+			isa = PBXGroup;
+			children = (
+				C9A23DE9204EBD6A002C1121 /* wRB iOS App */,
+				C9A23E2C204EBD75002C1121 /* wRB WatchKit App */,
+				C9A23E34204EBD7C002C1121 /* wRB WatchKit Extension */,
+				C99F896E203868D6003692ED /* Products */,
+				C9DAAD88203A1938002C8075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C99F896E203868D6003692ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99F896D203868D6003692ED /* wRB iOS App.app */,
+				C99F8983203868D6003692ED /* wRB WatchKit App.app */,
+				C99F8992203868D6003692ED /* wRB WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A23DE9204EBD6A002C1121 /* wRB iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23F1A204ED51C002C1121 /* RTBMyIP.h */,
+				C9A23F1B204ED51C002C1121 /* RTBMyIP.m */,
+				C9A23EED204ED508002C1121 /* GCDWebServer */,
+				C9A23E0C204EBD6A002C1121 /* AppDelegate.h */,
+				C9A23E0D204EBD6A002C1121 /* Assets.xcassets */,
+				C9A23E0E204EBD6A002C1121 /* ViewController.m */,
+				C9A23E16204EBD6A002C1121 /* ViewController.h */,
+				C9A23E0F204EBD6A002C1121 /* LaunchScreen.storyboard */,
+				C9A23E11204EBD6A002C1121 /* Main.storyboard */,
+				C9A23E13204EBD6A002C1121 /* main.m */,
+				C9A23E14204EBD6A002C1121 /* AppDelegate.m */,
+				C9A23E15204EBD6A002C1121 /* Info.plist */,
+			);
+			path = "wRB iOS App";
+			sourceTree = "<group>";
+		};
+		C9A23E2C204EBD75002C1121 /* wRB WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23E2D204EBD75002C1121 /* Assets.xcassets */,
+				C9A23E2E204EBD75002C1121 /* Interface.storyboard */,
+				C9A23E30204EBD75002C1121 /* Info.plist */,
+			);
+			path = "wRB WatchKit App";
+			sourceTree = "<group>";
+		};
+		C9A23E34204EBD7C002C1121 /* wRB WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23F1D204ED55A002C1121 /* model */,
+				C9A23E38204EBD7C002C1121 /* ExtensionDelegate.h */,
+				C9A23E35204EBD7C002C1121 /* ExtensionDelegate.m */,
+				C9A23E39204EBD7C002C1121 /* InterfaceController.h */,
+				C9A23E36204EBD7C002C1121 /* InterfaceController.m */,
+				C9A23E37204EBD7C002C1121 /* Assets.xcassets */,
+				C9A23E3A204EBD7C002C1121 /* Info.plist */,
+			);
+			path = "wRB WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C9A23EED204ED508002C1121 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23EEE204ED508002C1121 /* Core */,
+				C9A23EFB204ED508002C1121 /* Responses */,
+				C9A23F04204ED508002C1121 /* Requests */,
+			);
+			name = GCDWebServer;
+			path = ../../iOS/GCDWebServer;
+			sourceTree = "<group>";
+		};
+		C9A23EEE204ED508002C1121 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23EEF204ED508002C1121 /* GCDWebServerFunctions.h */,
+				C9A23EF0204ED508002C1121 /* GCDWebServerPrivate.h */,
+				C9A23EF1204ED508002C1121 /* GCDWebServerResponse.m */,
+				C9A23EF2204ED508002C1121 /* GCDWebServerConnection.h */,
+				C9A23EF3204ED508002C1121 /* GCDWebServer.h */,
+				C9A23EF4204ED508002C1121 /* GCDWebServerRequest.m */,
+				C9A23EF5204ED508002C1121 /* GCDWebServerHTTPStatusCodes.h */,
+				C9A23EF6204ED508002C1121 /* GCDWebServerResponse.h */,
+				C9A23EF7204ED508002C1121 /* GCDWebServerFunctions.m */,
+				C9A23EF8204ED508002C1121 /* GCDWebServer.m */,
+				C9A23EF9204ED508002C1121 /* GCDWebServerConnection.m */,
+				C9A23EFA204ED508002C1121 /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C9A23EFB204ED508002C1121 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23EFC204ED508002C1121 /* GCDWebServerFileResponse.h */,
+				C9A23EFD204ED508002C1121 /* GCDWebServerStreamedResponse.h */,
+				C9A23EFE204ED508002C1121 /* GCDWebServerErrorResponse.m */,
+				C9A23EFF204ED508002C1121 /* GCDWebServerDataResponse.h */,
+				C9A23F00204ED508002C1121 /* GCDWebServerFileResponse.m */,
+				C9A23F01204ED508002C1121 /* GCDWebServerDataResponse.m */,
+				C9A23F02204ED508002C1121 /* GCDWebServerErrorResponse.h */,
+				C9A23F03204ED508002C1121 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		C9A23F04204ED508002C1121 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23F05204ED508002C1121 /* GCDWebServerDataRequest.h */,
+				C9A23F06204ED508002C1121 /* GCDWebServerMultiPartFormRequest.h */,
+				C9A23F07204ED508002C1121 /* GCDWebServerFileRequest.h */,
+				C9A23F08204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.m */,
+				C9A23F09204ED508002C1121 /* GCDWebServerMultiPartFormRequest.m */,
+				C9A23F0A204ED508002C1121 /* GCDWebServerDataRequest.m */,
+				C9A23F0B204ED508002C1121 /* GCDWebServerFileRequest.m */,
+				C9A23F0C204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		C9A23F1D204ED55A002C1121 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C9A23F1E204ED55A002C1121 /* RTBMethod.m */,
+				C9A23F1F204ED55A002C1121 /* RTBTypeDecoder.h */,
+				C9A23F20204ED55A002C1121 /* RTBRuntimeHeader.h */,
+				C9A23F21204ED55A002C1121 /* RTBRuntime.h */,
+				C9A23F22204ED55A002C1121 /* RTBTypeDecoder2.m */,
+				C9A23F23204ED55A002C1121 /* RTBClass.m */,
+				C9A23F24204ED55A002C1121 /* RTBProtocol.m */,
+				C9A23F25204ED55A002C1121 /* RTBTypeDecoder.m */,
+				C9A23F26204ED55A002C1121 /* RTBMethod.h */,
+				C9A23F27204ED55A002C1121 /* RTBRuntime.m */,
+				C9A23F28204ED55A002C1121 /* RTBRuntimeHeader.m */,
+				C9A23F29204ED55A002C1121 /* RTBProtocol.h */,
+				C9A23F2A204ED55A002C1121 /* RTBClass.h */,
+				C9A23F2B204ED55A002C1121 /* RTBTypeDecoder2.h */,
+			);
+			name = model;
+			path = ../../model;
+			sourceTree = "<group>";
+		};
+		C9DAAD88203A1938002C8075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9DAAD8A203A195A002C8075 /* WatchConnectivity.framework */,
+				C9DAAD89203A1938002C8075 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99F896C203868D6003692ED /* wRB iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99F89AA203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB iOS App" */;
+			buildPhases = (
+				C99F8969203868D6003692ED /* Sources */,
+				C99F896A203868D6003692ED /* Frameworks */,
+				C99F896B203868D6003692ED /* Resources */,
+				C99F89A9203868D6003692ED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99F8986203868D6003692ED /* PBXTargetDependency */,
+			);
+			name = "wRB iOS App";
+			productName = "wRB iOS App";
+			productReference = C99F896D203868D6003692ED /* wRB iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99F8982203868D6003692ED /* wRB WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99F89A6203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB WatchKit App" */;
+			buildPhases = (
+				C99F8981203868D6003692ED /* Resources */,
+				C99F89A5203868D6003692ED /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99F8995203868D6003692ED /* PBXTargetDependency */,
+			);
+			name = "wRB WatchKit App";
+			productName = "wRB WatchKit App";
+			productReference = C99F8983203868D6003692ED /* wRB WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C99F8991203868D6003692ED /* wRB WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99F89A2203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB WatchKit Extension" */;
+			buildPhases = (
+				C99F898E203868D6003692ED /* Sources */,
+				C99F898F203868D6003692ED /* Frameworks */,
+				C99F8990203868D6003692ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wRB WatchKit Extension";
+			productName = "wRB WatchKit Extension";
+			productReference = C99F8992203868D6003692ED /* wRB WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99F8965203868D6003692ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Matt Clarke";
+				TargetAttributes = {
+					C99F896C203868D6003692ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C99F8982203868D6003692ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C99F8991203868D6003692ED = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C99F8968203868D6003692ED /* Build configuration list for PBXProject "watchOS Runtime Browser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99F8964203868D6003692ED;
+			productRefGroup = C99F896E203868D6003692ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99F896C203868D6003692ED /* wRB iOS App */,
+				C99F8982203868D6003692ED /* wRB WatchKit App */,
+				C99F8991203868D6003692ED /* wRB WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99F896B203868D6003692ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A23E25204EBD6A002C1121 /* Assets.xcassets in Resources */,
+				C9A23E28204EBD6A002C1121 /* Main.storyboard in Resources */,
+				C9A23E27204EBD6A002C1121 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99F8981203868D6003692ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A23E55204EC02A002C1121 /* Interface.storyboard in Resources */,
+				C9A23E31204EBD75002C1121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99F8990203868D6003692ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A23E3D204EBD7C002C1121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99F8969203868D6003692ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A23F19204ED508002C1121 /* GCDWebServerFileRequest.m in Sources */,
+				C9A23F15204ED508002C1121 /* GCDWebServerStreamedResponse.m in Sources */,
+				C9A23F17204ED508002C1121 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				C9A23F18204ED508002C1121 /* GCDWebServerDataRequest.m in Sources */,
+				C9A23F14204ED508002C1121 /* GCDWebServerDataResponse.m in Sources */,
+				C9A23F10204ED508002C1121 /* GCDWebServer.m in Sources */,
+				C9A23F16204ED508002C1121 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				C9A23E26204EBD6A002C1121 /* ViewController.m in Sources */,
+				C9A23E2A204EBD6A002C1121 /* AppDelegate.m in Sources */,
+				C9A23F0F204ED508002C1121 /* GCDWebServerFunctions.m in Sources */,
+				C9A23E29204EBD6A002C1121 /* main.m in Sources */,
+				C9A23F0D204ED508002C1121 /* GCDWebServerResponse.m in Sources */,
+				C9A23F1C204ED51C002C1121 /* RTBMyIP.m in Sources */,
+				C9A23F12204ED508002C1121 /* GCDWebServerErrorResponse.m in Sources */,
+				C9A23F11204ED508002C1121 /* GCDWebServerConnection.m in Sources */,
+				C9A23F0E204ED508002C1121 /* GCDWebServerRequest.m in Sources */,
+				C9A23F13204ED508002C1121 /* GCDWebServerFileResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99F898E203868D6003692ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A23F2F204ED55A002C1121 /* RTBProtocol.m in Sources */,
+				C9A23E3B204EBD7C002C1121 /* ExtensionDelegate.m in Sources */,
+				C9A23E3C204EBD7C002C1121 /* InterfaceController.m in Sources */,
+				C9A23F31204ED55A002C1121 /* RTBRuntime.m in Sources */,
+				C9A23F32204ED55A002C1121 /* RTBRuntimeHeader.m in Sources */,
+				C9A23F30204ED55A002C1121 /* RTBTypeDecoder.m in Sources */,
+				C9A23F2D204ED55A002C1121 /* RTBTypeDecoder2.m in Sources */,
+				C9A23F2C204ED55A002C1121 /* RTBMethod.m in Sources */,
+				C9A23F2E204ED55A002C1121 /* RTBClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99F8986203868D6003692ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99F8982203868D6003692ED /* wRB WatchKit App */;
+			targetProxy = C99F8985203868D6003692ED /* PBXContainerItemProxy */;
+		};
+		C99F8995203868D6003692ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99F8991203868D6003692ED /* wRB WatchKit Extension */;
+			targetProxy = C99F8994203868D6003692ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9A23E0F204EBD6A002C1121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A23E10204EBD6A002C1121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A23E11204EBD6A002C1121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A23E12204EBD6A002C1121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A23E2E204EBD75002C1121 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A23E2F204EBD75002C1121 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99F89A0203868D6003692ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C99F89A1203868D6003692ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99F89A3203868D6003692ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C99F89A4203868D6003692ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		C99F89A7203868D6003692ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				IBSC_MODULE = wRB_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		C99F89A8203868D6003692ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				IBSC_MODULE = wRB_WatchKit_Extension;
+				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		C99F89AB203868D6003692ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "wRB iOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99F89AC203868D6003692ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "wRB iOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99F8968203868D6003692ED /* Build configuration list for PBXProject "watchOS Runtime Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99F89A0203868D6003692ED /* Debug */,
+				C99F89A1203868D6003692ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99F89A2203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99F89A3203868D6003692ED /* Debug */,
+				C99F89A4203868D6003692ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99F89A6203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99F89A7203868D6003692ED /* Debug */,
+				C99F89A8203868D6003692ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99F89AA203868D6003692ED /* Build configuration list for PBXNativeTarget "wRB iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99F89AB203868D6003692ED /* Debug */,
+				C99F89AC203868D6003692ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99F8965203868D6003692ED /* Project object */;
+}

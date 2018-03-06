@@ -229,12 +229,16 @@ static RTBRuntime *sharedInstance;
 	return _rootClasses;
 }
 
+- (void)removeImageClasses:(NSString*)imagePath {
+    [self.allClassStubsByImagePath removeObjectForKey:imagePath];
+}
+
 - (void)emptyCachesAndReadAllRuntimeClasses {
 /*"
 We autorelease and reset the nil the global, static containers that
  hold the parsed runtime info.  This forces the entire runtime to\
  be re-parsed.
-
+ 
  +reset is designed to be called after the user has loaded new
  bundles (via "File -> Open..." in the UI's menu).
 "*/	

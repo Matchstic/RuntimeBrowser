@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13529" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13507"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="Dump Dyld" id="4eE-qP-BPA">
+                            <connections>
+                                <action selector="startDumpingFrameworks:" destination="AgC-eL-Hgc" id="963-L0-iuK"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="left" alpha="0.5" text="0% Progress:" id="OAd-Fc-uX9"/>
+                        <label width="1" height="25" alignment="left" text="CURRENT_IMAGE" textAlignment="left" numberOfLines="0" id="QpJ-sE-wWo"/>
+                        <label width="1" alignment="left" alpha="0.5" text="TRANSFER" id="Quh-J1-g9J"/>
+                    </items>
+                    <connections>
+                        <outlet property="currentImageLabel" destination="QpJ-sE-wWo" id="gW9-Vg-3It"/>
+                        <outlet property="progressLabel" destination="OAd-Fc-uX9" id="Uq2-QR-WtT"/>
+                        <outlet property="startButton" destination="4eE-qP-BPA" id="lXG-la-YuG"/>
+                        <outlet property="transferLabel" destination="Quh-J1-g9J" id="wV2-gv-rGf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="23.974358974358974"/>
+        </scene>
+    </scenes>
+</document>

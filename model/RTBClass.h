@@ -64,6 +64,7 @@ The purpose of ClassStub is to have a way of accessing ALL of a class's currentl
 
 - (BOOL)containsSearchString:(NSString *)searchString;
 
+- (NSString*)getHeader;
 - (BOOL)writeAtPath:(NSString *)path;
 
 // BrowserNode protocol

@@ -19,6 +19,16 @@ You can browse the [iOS headers](https://github.com/nst/iOS-Runtime-Headers) as 
 
 ![RuntimeBrowser](art/screenshot_iphone.png "RuntimeBrowser iPhone")
 ![RuntimeBrowser](art/screenshot_iphone_2.png "RuntimeBrowser iPhone")
+
+### watchOS Version
+
+Currently in pre-release, as the following needs to be sorted out:
+
+* Move all dumping code to the watchOS application extension's delegate
+* Make sure to restart dumping from the last framework if the watchOS application is killed
+* Add proper class browsing from the iOS companion app side
+
+Right now, to retrieve any headers dumped, you need to SSH into the iOS companion device and manually download them from its Documents directory. This is hardly ideal!
     
 ### OS X Version
 

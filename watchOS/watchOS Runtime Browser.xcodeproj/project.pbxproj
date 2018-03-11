@@ -197,9 +197,9 @@
 		C9A23DE9204EBD6A002C1121 /* wRB iOS App */ = {
 			isa = PBXGroup;
 			children = (
+				C9A23EED204ED508002C1121 /* GCDWebServer */,
 				C9A23F1A204ED51C002C1121 /* RTBMyIP.h */,
 				C9A23F1B204ED51C002C1121 /* RTBMyIP.m */,
-				C9A23EED204ED508002C1121 /* GCDWebServer */,
 				C9A23E0C204EBD6A002C1121 /* AppDelegate.h */,
 				C9A23E0D204EBD6A002C1121 /* Assets.xcassets */,
 				C9A23E0E204EBD6A002C1121 /* ViewController.m */,
@@ -650,7 +650,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp.watchkitextension;
@@ -667,7 +667,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp.watchkitextension;
@@ -684,7 +684,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = wRB_WatchKit_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp;
@@ -701,7 +701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = wRB_WatchKit_Extension;
 				INFOPLIST_FILE = "$(SRCROOT)/wRB WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos.watchkitapp;
@@ -718,7 +718,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "wRB iOS App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos;
@@ -732,7 +732,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "wRB iOS App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matchstic.runtimebrowser.watchos;
